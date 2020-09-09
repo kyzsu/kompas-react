@@ -1,0 +1,5 @@
+.vertical-article__thumbnail {
+  width: 177px;
+  height: 117px;
+  object-fit: cover;
+}
