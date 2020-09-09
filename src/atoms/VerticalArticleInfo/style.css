@@ -1,0 +1,17 @@
+.vertical-article__info {
+  font-size: 12px;
+}
+
+.vertical-article__category {
+  text-transform: uppercase;
+  color: #e55225;
+}
+
+.vertical-article__date {
+  color: #666;
+  margin-left: 10px;
+}
+
+.vertical-article__category, .vertical-article__date {
+  display: inline-block;
+}
