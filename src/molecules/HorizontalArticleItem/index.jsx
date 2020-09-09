@@ -6,7 +6,7 @@ import HorizontalArticleThumbnail from '../../atoms/HorizontalArticleThumbnail';
 export default function HorizontalArticleItem({ title, url, badge, thumbnail }) {
   return (
     <div className="position-relative">
-      <HorizontalArticleThumbnail src={thumbnail} />
+      <HorizontalArticleThumbnail src={thumbnail} title={title} />
       <HorizontalArticleBadge text={badge.text} type={badge.type} />
       <HorizontalArticleTitle text={title} href={url} />
     </div>
