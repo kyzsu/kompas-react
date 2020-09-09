@@ -2,10 +2,10 @@ import React from 'react';
 import HorizontalArticleItem from '../../molecules/HorizontalArticleItem';
 import SectionTitle from '../../atoms/SectionTitle';
 
-export default function Featured({ articles }) {
+export default function VerticalArticle({ id, title, articles }) {
   return (
-    <section id="featured">
-      <SectionTitle text="Sorotan" />
+    <section id={title}>
+      <SectionTitle text={title} />
       <div className="row">
         {articles.map(article => (
           <div key={article.id} className="col">
