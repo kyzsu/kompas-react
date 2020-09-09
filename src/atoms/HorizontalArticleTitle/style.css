@@ -1,0 +1,21 @@
+.horizontal-article__title {
+  margin: -20px 10px 0;
+  background: white;
+  padding: 10px;
+  position: relative;
+}
+
+.horizontal-article__title h3 {
+  font-size: 18px;
+  font-weight: thin;
+}
+
+.horizontal-article__title a {
+  color: black;
+  transition: color 0.2s;
+}
+
+.horizontal-article__title a:hover {
+  color: #3ca5dd;
+  text-decoration: none;
+}
