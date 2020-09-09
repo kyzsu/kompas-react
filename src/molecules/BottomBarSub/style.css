@@ -1,0 +1,7 @@
+.bottombar__sub {
+  display: none;
+  padding: 10px 10px 20px;
+  list-style: none;
+  position: absolute;
+  background-color: #212121;
+}

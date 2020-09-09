@@ -5,9 +5,9 @@ import './style.css';
 
 export default function SearchBox() {
   return (
-    <div class="input-group searchbox">
+    <div className="input-group searchbox">
       <SearchBoxInput />
-      <div class="input-group-append">
+      <div className="input-group-append">
         <SearchBoxButton />
       </div>
     </div>

@@ -7,9 +7,11 @@ export default function TopBar() {
   return (
     <nav className="topbar">
       <div className="container">
-        <div className="row d-flex justify-content-between">
-          <TopBarList items={leftMenu} />
-          <TopBarList items={rightMenu} />
+        <div className="row">
+          <div className="col d-flex justify-content-between">
+            <TopBarList items={leftMenu} />
+            <TopBarList items={rightMenu} />
+          </div>
         </div>
       </div>
     </nav>
