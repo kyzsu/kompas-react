@@ -2,13 +2,13 @@ import React from 'react';
 import HorizontalArticleItem from '../../molecules/HorizontalArticleItem';
 import SectionTitle from '../../atoms/SectionTitle';
 
-export default function VerticalArticle({ id, title, articles }) {
+export default function HorizontalArticleList({ id, title, articles }) {
   return (
-    <section id={title}>
+    <section id={id}>
       <SectionTitle text={title} />
       <div className="row">
         {articles.map(article => (
-          <div key={article.id} className="col">
+          <div key={article.id} className="col-4">
             <HorizontalArticleItem
               title={article.title}
               url={article.url}
