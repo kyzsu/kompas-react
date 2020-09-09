@@ -1,11 +1,10 @@
 import React from 'react';
-import TopBar from './organisms/TopBar';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <TopBar />
-      
+      <Home />
     </div>
   );
 }

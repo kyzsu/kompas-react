@@ -1,0 +1,12 @@
+.header__link {
+  color: #ef9021;
+  transition: color 0.2s;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header__link:hover {
+  color: white;
+  text-decoration: none;
+}

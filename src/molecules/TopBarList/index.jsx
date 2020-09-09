@@ -1,6 +1,6 @@
 import React from 'react';
-import './TopBarList.css';
-import TopBarItem from '../atoms/TopBarItem';
+import './style.css';
+import TopBarItem from '../../atoms/TopBarItem';
 
 export default function TopBarList({ items }) {
   return (

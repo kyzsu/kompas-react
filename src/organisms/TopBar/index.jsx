@@ -1,7 +1,7 @@
 import React from 'react';
-import './TopBar.css';
-import TopBarList from '../molecules/TopBarList';
-import { leftMenu, rightMenu } from './TopBarItems';
+import './style.css';
+import TopBarList from '../../molecules/TopBarList';
+import { leftMenu, rightMenu } from './items';
 
 export default function TopBar() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './TopBarItem.css';
+import './style.css';
 
 export default function TopBarItem({ href, text }) {
   return (
