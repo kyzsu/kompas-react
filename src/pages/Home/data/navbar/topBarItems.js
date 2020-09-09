@@ -1,4 +1,4 @@
-export const leftMenu = [
+const leftMenu = [
   {
     href: '#',
     text: 'Harian Kompas',
@@ -13,7 +13,7 @@ export const leftMenu = [
   },
 ];
 
-export const rightMenu = [
+const rightMenu = [
   {
     href: '#',
     text: 'Kompasiana.com',
@@ -51,3 +51,7 @@ export const rightMenu = [
     text: 'KGMedia.id',
   },
 ];
+
+const topBarItems = { leftMenu, rightMenu }
+
+export default topBarItems;

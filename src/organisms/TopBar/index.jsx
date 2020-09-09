@@ -1,9 +1,8 @@
 import React from 'react';
 import './style.css';
 import TopBarList from '../../molecules/TopBarList';
-import { leftMenu, rightMenu } from './items';
 
-export default function TopBar() {
+export default function TopBar({ leftMenu, rightMenu }) {
   return (
     <nav className="topbar">
       <div className="container">

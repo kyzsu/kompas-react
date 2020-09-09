@@ -72,6 +72,6 @@ const food = {
   ],
 };
 
-const items = [news, tren, hype, food];
+const bottomBarItems = [news, tren, hype, food];
 
-export default items;
+export default bottomBarItems;

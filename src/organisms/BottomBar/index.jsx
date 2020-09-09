@@ -1,9 +1,8 @@
 import React from 'react';
 import BottomBarList from '../../molecules/BottomBarList';
-import items from './items';
 import './style.css';
 
-export default function BottomBar() {
+export default function BottomBar({ items }) {
   return (
     <nav className="bottombar">
       <div className="container">
