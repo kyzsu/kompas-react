@@ -12,10 +12,8 @@ export default function HorizontalArticleList({ id, title, articles }) {
             <HorizontalArticleItem
               title={article.title}
               url={article.url}
-              badge={{
-                text: article.badge.text,
-                type: article.badge.type,
-              }}
+              category={article.category}
+              isSpecial={article.special}
               thumbnail={article.thumbnail}
             />
           </div>
