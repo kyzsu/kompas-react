@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 
-export default function VerticalArticleTitle({ text }) {
+export default function VerticalArticleTitle({ text, href }) {
   return (
-    <h3 className="vertical-article__title">
-      {text}
-    </h3>
+    <a href={href} className="vertical-article__title">
+      <h3>{text}</h3>
+    </a>
   );
 }

@@ -1,4 +1,14 @@
 .vertical-article__title {
+  color: black;
+  transition: color 0.2s;
+}
+
+.vertical-article__title:hover {
+  color: #3ca5dd;
+  text-decoration: none;
+}
+
+.vertical-article__title h3 {
   font-size: 26px;
   font-weight: lighter;
 }
