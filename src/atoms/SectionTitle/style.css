@@ -20,6 +20,7 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
+  z-index: 10;
 }
 
 .section__title h2::after {
