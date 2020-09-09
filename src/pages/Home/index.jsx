@@ -3,6 +3,7 @@ import MainLayout from '../../templates/MainLayout';
 import bottomBarItems from './data/navbar/bottomBarItems';
 import topBarItems from './data/navbar/topBarItems';
 import featuredArticles from './data/articles/featured';
+import recentArticles from './data/articles/recent';
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
         topBarItems,
         bottomBarItems,
       }}
-      featuredArticles={featuredArticles}
+      articles={{
+        featuredArticles,
+        recentArticles
+      }}
     />
   );
 }

@@ -8,11 +8,12 @@ export default function VerticalArticleList({ id, title, articles }) {
       <SectionTitle text={title} />
       <div className="row">
       {articles.map(article => (
-        <div key={article.id} className="col-12">
+        <div key={article.id} className="col-12 mb-3">
           <VerticalArticleItem 
             title={article.title}
+            url={article.url}
             category={article.category}
-            date={article.date}
+            date={article.created_at}
             thumbnail={article.thumbnail}
           />
         </div>
