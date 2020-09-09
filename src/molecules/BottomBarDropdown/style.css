@@ -1,3 +1,7 @@
+.bottombar__sub {
+  z-index: 10;
+}
+
 .bottombar__item:hover ~ .bottombar__sub {
   display: block;
 }
