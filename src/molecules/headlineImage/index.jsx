@@ -2,6 +2,7 @@ import React from "react";
 import headTitle from "../../atoms/headline-title/index";
 import Text from "../../atoms/text/index";
 import HeadTitle from "../../atoms/headline-title/index";
+import "./index.css";
 
 const headlineImage = ({ image, labelHeadline, date, headlineTitle }) => {
   return (
