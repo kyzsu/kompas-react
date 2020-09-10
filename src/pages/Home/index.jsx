@@ -5,6 +5,7 @@ import topBarItems from './data/navbar/topBarItems';
 import featuredArticles from './data/articles/featured';
 import recentArticles from './data/articles/recent';
 import userArticles from './data/articles/user';
+import slideItems from './data/slide/items';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         recentArticles,
         userArticles
       }}
+      slideItems={slideItems}
     />
   );
 }

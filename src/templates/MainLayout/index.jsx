@@ -7,8 +7,9 @@ import VerticalArticleList from '../../organisms/VerticalArticleList';
 import popularArticles from '../../pages/Home/data/articles/popular';
 import SideArticleList from '../../organisms/SideArticleList';
 import UserArticleList from '../../organisms/UserArticleList';
+import Slide from '../../molecules/Slide';
 
-export default function MainLayout({ navbarItems, articles }) {
+export default function MainLayout({ navbarItems, articles, slideItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
   const { featuredArticles, recentArticles, userArticles } = articles;
 
@@ -28,6 +29,11 @@ export default function MainLayout({ navbarItems, articles }) {
             <div className="row mt-3">
               <div className="col">
                 <VerticalArticleList id="recent" title="Berita Terkini" articles={recentArticles} />
+              </div>
+            </div>
+            <div className="row mt-3">
+              <div className="col">
+                <Slide items={slideItems}/>
               </div>
             </div>
           </div>

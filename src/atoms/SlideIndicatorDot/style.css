@@ -1,0 +1,11 @@
+.slide__indicator-dot {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 10px;
+  height: 12px;
+  border: 0;
+}
+
+.slide__indicator-dot.active {
+  background-color: #ef9021;
+}
