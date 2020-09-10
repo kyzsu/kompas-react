@@ -1,0 +1,8 @@
+.side-article__number {
+  color: white;
+  background-color: #71c4d6;
+  min-width: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}

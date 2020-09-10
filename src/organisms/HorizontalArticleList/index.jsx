@@ -6,7 +6,7 @@ export default function HorizontalArticleList({ id, title, articles }) {
   return (
     <section id={id}>
       <SectionTitle text={title} />
-      <div className="row">
+      <div className="row mt-3">
         {articles.map(article => (
           <div key={article.id} className="col-4">
             <HorizontalArticleItem

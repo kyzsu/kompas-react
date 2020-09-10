@@ -1,7 +1,6 @@
 .section__title {
   display: flex;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .section__title::after {

@@ -4,6 +4,8 @@ import Header from '../../organisms/Header';
 import BottomBar from '../../organisms/BottomBar';
 import HorizontalArticleList from '../../organisms/HorizontalArticleList';
 import VerticalArticleList from '../../organisms/VerticalArticleList';
+import popularArticles from '../../pages/Home/data/articles/popular';
+import SideArticleList from '../../organisms/SideArticleList';
 
 export default function MainLayout({ navbarItems, articles }) {
   const { topBarItems, bottomBarItems } = navbarItems;
@@ -25,6 +27,13 @@ export default function MainLayout({ navbarItems, articles }) {
             <div className="row mt-3">
               <div className="col">
                 <VerticalArticleList id="recent" title="Berita Terkini" articles={recentArticles} />
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="row">
+              <div className="col">
+                <SideArticleList id="popular" title="Terpopuler" articles={popularArticles} />
               </div>
             </div>
           </div>
