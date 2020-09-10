@@ -1,0 +1,9 @@
+.user-post__title {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+}
+
+.user-post__title:hover {
+  text-decoration: none;
+}
