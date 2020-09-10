@@ -1,0 +1,11 @@
+.searchbox__input {
+  padding: 3px 12px;
+  box-sizing: content-box;
+  background-color: #2d2d2d;
+  border: 0;
+  font-size: 14px;
+}
+
+.searchbox__input:focus {
+  background-color: #2d2d2d;
+}

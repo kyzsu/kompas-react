@@ -1,0 +1,16 @@
+.bottombar__item {
+  padding: 14px 8px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.bottombar__item:hover {
+  color: #1fb9e1;
+  text-decoration: none;
+  transition: color 0.1s;
+  background-color: #212121;
+}

@@ -1,0 +1,21 @@
+.bottombar__subitem {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  line-height: 1;
+  font-size: 13px;
+  min-width: 96px;
+  display: block;
+  white-space: nowrap;
+}
+
+.bottombar__subitem.active {
+  color: #71c4d6;
+}
+
+.bottombar__subitem:hover {
+  color: #71c4d6;
+  transition: color 0.1s;
+  text-decoration: none;
+}

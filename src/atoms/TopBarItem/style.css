@@ -1,0 +1,13 @@
+.topbar__text {
+  font-size: 11px;
+  text-transform: uppercase;
+  display: block;
+  padding: 8px 3px;
+  color: black;
+}
+
+.topbar__text:hover {
+  color: #e55225;
+  text-decoration: none;
+  transition: color 0.2s;
+}
