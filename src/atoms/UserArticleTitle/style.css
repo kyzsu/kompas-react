@@ -2,8 +2,10 @@
   font-size: 16px;
   font-weight: lighter;
   color: black;
+  line-height: 0.2;
 }
 
 .user-post__title:hover {
+  color: black;
   text-decoration: none;
 }

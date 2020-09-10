@@ -4,6 +4,7 @@ import bottomBarItems from './data/navbar/bottomBarItems';
 import topBarItems from './data/navbar/topBarItems';
 import featuredArticles from './data/articles/featured';
 import recentArticles from './data/articles/recent';
+import userArticles from './data/articles/user';
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       }}
       articles={{
         featuredArticles,
-        recentArticles
+        recentArticles,
+        userArticles
       }}
     />
   );

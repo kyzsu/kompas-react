@@ -8,7 +8,7 @@ export default function SideArticleList({ id, title, articles }) {
       <SectionTitle text={title} center={true} />
       <div className="row">
         {articles.map((article, index) => (
-          <div key={article.id} className="col mb-1">
+          <div key={article.id} className="col-12 mb-1">
             <SideArticleItem
               title={article.title}
               url={article.url}

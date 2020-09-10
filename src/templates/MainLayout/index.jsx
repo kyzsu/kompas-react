@@ -6,10 +6,11 @@ import HorizontalArticleList from '../../organisms/HorizontalArticleList';
 import VerticalArticleList from '../../organisms/VerticalArticleList';
 import popularArticles from '../../pages/Home/data/articles/popular';
 import SideArticleList from '../../organisms/SideArticleList';
+import UserArticleList from '../../organisms/UserArticleList';
 
 export default function MainLayout({ navbarItems, articles }) {
   const { topBarItems, bottomBarItems } = navbarItems;
-  const { featuredArticles, recentArticles } = articles;
+  const { featuredArticles, recentArticles, userArticles } = articles;
 
   return (
     <>
@@ -18,7 +19,7 @@ export default function MainLayout({ navbarItems, articles }) {
       <BottomBar items={bottomBarItems} />
       <div className="container">
         <div className="row">
-          <div className="col-9">
+          <div className="col-8">
             <div className="row">
               <div className="col">
                 <HorizontalArticleList id="featured" title="Sorotan" articles={featuredArticles} />
@@ -30,10 +31,15 @@ export default function MainLayout({ navbarItems, articles }) {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-4">
             <div className="row">
               <div className="col">
                 <SideArticleList id="popular" title="Terpopuler" articles={popularArticles} />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <UserArticleList id="user-post" title="Kolom" articles={userArticles} />
               </div>
             </div>
           </div>
