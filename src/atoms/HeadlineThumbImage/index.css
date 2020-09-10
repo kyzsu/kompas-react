@@ -1,0 +1,12 @@
+.Headline-Thumb-Img {
+  margin: 0 0 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Headline-Thumb-Img img {
+  width: auto;
+  height: auto;
+  display: block;
+  border: 0;
+}
