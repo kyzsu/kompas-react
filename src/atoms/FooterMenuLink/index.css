@@ -1,0 +1,11 @@
+.Footer-Menu-Link {
+  color: #b1b1b1;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+.Footer-Menu-Item {
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}

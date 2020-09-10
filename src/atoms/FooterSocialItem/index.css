@@ -1,0 +1,17 @@
+.Social-Item {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.Social-Link {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.Icon {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto 100%;
+  width: 1em;
+  height: 1em;
+}
