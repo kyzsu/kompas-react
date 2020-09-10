@@ -5,6 +5,7 @@ import topBarItems from "./data/navbar/topBarItems";
 import featuredArticles from "./data/articles/featured";
 import recentArticles from "./data/articles/recent";
 import headlineArticles from "./data/articles/headlines";
+import DiscoverItems from "./data/Discover/DiscoverItems";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         recentArticles,
         headlineArticles,
       }}
+      DiscoverItems={DiscoverItems}
     />
   );
 }

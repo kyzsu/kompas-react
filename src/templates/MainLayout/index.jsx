@@ -5,10 +5,17 @@ import BottomBar from "../../organisms/BottomBar";
 import HorizontalArticleList from "../../organisms/HorizontalArticleList";
 import VerticalArticleList from "../../organisms/VerticalArticleList";
 import HeadlineBig from "../../organisms/HeadlineBig";
+import Discover from "../../organisms/Discover";
 
-export default function MainLayout({ navbarItems, articles }) {
+export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
   const { featuredArticles, recentArticles, headlineArticles } = articles;
+  const {
+    DiscovItemsLeft,
+    DiscovItemsMidLeft,
+    DiscovItemsMidRight,
+    DiscovItemsRight,
+  } = DiscoverItems;
   return (
     <>
       <TopBar
@@ -41,6 +48,16 @@ export default function MainLayout({ navbarItems, articles }) {
                   id="recent"
                   title="Berita Terkini"
                   articles={recentArticles}
+                />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Discover
+                  DisItemLeft={DiscovItemsLeft}
+                  DisItemMidLeft={DiscovItemsMidLeft}
+                  DisItemMidRight={DiscovItemsMidRight}
+                  DisItemRight={DiscovItemsRight}
                 />
               </div>
             </div>
