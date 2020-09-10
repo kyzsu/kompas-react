@@ -1,0 +1,23 @@
+.Headline-Big-Item {
+  width: 740px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  display: block;
+}
+
+.Headline-Big-Link {
+  color: #fff;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+.Headline-Big-Box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.7);
+}
