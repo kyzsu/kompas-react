@@ -8,6 +8,9 @@ import HeadlineBig from "../../organisms/HeadlineBig";
 import Discover from "../../organisms/Discover";
 import VIK from "../../organisms/VIK/index";
 import HeadlineThumb from "../../organisms/HeadlineThumb";
+import Slide from '../../molecules/Slide';
+import SideArticleList from '../../organisms/SideArticleList';
+import UserArticleList from '../../organisms/UserArticleList';
 import Footer from "../../organisms/Footer/index";
 
 export default function MainLayout({
@@ -18,6 +21,7 @@ export default function MainLayout({
 }) {
   const { topBarItems, bottomBarItems } = navbarItems;
   const {
+    popularArticles,
     featuredArticles,
     recentArticles,
     headlineArticles,
