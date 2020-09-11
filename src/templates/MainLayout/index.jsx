@@ -8,6 +8,7 @@ import HeadlineBig from "../../organisms/HeadlineBig";
 import Discover from "../../organisms/Discover";
 import VIK from "../../organisms/VIK/index";
 import HeadlineThumb from "../../organisms/HeadlineThumb";
+import Footer from "../../organisms/Footer/index";
 
 export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
@@ -74,6 +75,7 @@ export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

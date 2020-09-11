@@ -1,0 +1,44 @@
+.logo__achieve {
+  position: relative;
+  display: block;
+  padding: 30px 0 0;
+  width: 250px;
+  float: left;
+  text-align: center;
+}
+
+.logo__achieve__subtitle {
+  padding: 0 0 5px;
+  color: #fff;
+  font-size: 13px;
+  font-family: Roboto Condensed, sans-serif;
+}
+
+.logo__achieve__item {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  vertical-align: top;
+}
+
+.logo__achieve__link {
+  display: block;
+}
+
+a {
+  color: inherit;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+.logo__achieve__img {
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: 50px;
+  width: auto;
+  vertical-align: top;
+  border: 0;
+}

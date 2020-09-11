@@ -1,0 +1,10 @@
+.footer__copy {
+  padding: 5px 0;
+}
+
+a {
+  color: #fff;
+  vertical-align: baseline;
+  outline: 0;
+  box-sizing: border-box;
+}

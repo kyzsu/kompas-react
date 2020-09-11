@@ -1,0 +1,40 @@
+.social--footer {
+  padding: 10px 0;
+}
+
+.social {
+  position: relative;
+}
+
+.social__item {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.social__link {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  padding: 8px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+}
+
+.social__link--facebook {
+  background: #3b5998;
+}
+
+.social__link--twitter {
+  background: #1da1f2;
+}
+
+.social__link--instagram {
+  background: #c13584;
+}
+
+.social__link--line {
+  background: #00c300;
+}
