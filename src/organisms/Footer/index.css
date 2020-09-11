@@ -1,0 +1,19 @@
+.footer {
+  padding: 0 0 70px;
+  background: #000;
+  color: #fff;
+  border-top: 4px solid #3ca5dd;
+  width: 100%;
+}
+
+.footer__bottom {
+  padding: 30px 0 10px;
+  color: #b1b1b1;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}

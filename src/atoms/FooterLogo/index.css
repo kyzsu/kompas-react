@@ -1,0 +1,17 @@
+.logo {
+  display: inline-block;
+  position: relative;
+}
+
+a {
+  color: #b1b1b1;
+  outline: 0;
+}
+
+img {
+  width: auto;
+  height: 50px;
+  max-width: 100%;
+  vertical-align: top;
+  border: 0;
+}
