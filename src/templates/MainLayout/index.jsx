@@ -8,10 +8,11 @@ import HeadlineBig from "../../organisms/HeadlineBig";
 import Discover from "../../organisms/Discover";
 import VIK from "../../organisms/VIK/index";
 import HeadlineThumb from "../../organisms/HeadlineThumb";
-import Slide from '../../molecules/Slide';
-import SideArticleList from '../../organisms/SideArticleList';
-import UserArticleList from '../../organisms/UserArticleList';
+import Slide from "../../molecules/Slide";
+import SideArticleList from "../../organisms/SideArticleList";
+import UserArticleList from "../../organisms/UserArticleList";
 import Footer from "../../organisms/Footer/index";
+import GTPList from "../../organisms/GramediaTopikPilihanList";
 
 export default function MainLayout({
   navbarItems,
@@ -28,6 +29,7 @@ export default function MainLayout({
     visualKompasArticles,
     HeadlineThumbArticles,
     userArticles,
+    gramediaAds,
   } = articles;
   const {
     DiscovItemsLeft,
@@ -91,6 +93,11 @@ export default function MainLayout({
                 />
               </div>
             </div>
+            <div className="row">
+              <div className="col">
+                <VIK VIKArticles={visualKompasArticles} />
+              </div>
+            </div>
           </div>
           <div className="col-4">
             <div className="row">
@@ -111,11 +118,12 @@ export default function MainLayout({
                 />
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col">
-            <VIK VIKArticles={visualKompasArticles} />
+            {/* Gramedia dan Topik Pilihan */}
+            <div className="row">
+              <div className="col">
+                <GTPList GramediaItems={gramediaAds} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

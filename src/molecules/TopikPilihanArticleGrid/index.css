@@ -1,0 +1,18 @@
+.article__grid {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.article__asset {
+  position: relative;
+}
+
+.article__box--offset-0 {
+  background: #f0f0f0;
+  padding: 10px 0 0;
+  margin: 0;
+}
+
+.article__box {
+  position: relative;
+}

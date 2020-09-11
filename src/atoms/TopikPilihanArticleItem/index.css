@@ -1,0 +1,25 @@
+.article__list__item {
+  margin: 0;
+}
+
+.article__title--bullet {
+  position: relative;
+  padding: 7px 20px 0 30px;
+  font-size: 16px;
+  line-height: 1.3;
+  height: 77px;
+  overflow: hidden;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.article__title {
+  font-weight: 300;
+  color: #000;
+}
+
+.article__link {
+  height: 63px;
+  overflow: hidden;
+  display: block;
+}
