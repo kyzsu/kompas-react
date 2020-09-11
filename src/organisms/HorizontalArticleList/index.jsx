@@ -1,6 +1,6 @@
-import React from 'react';
-import HorizontalArticleItem from '../../molecules/HorizontalArticleItem';
-import SectionTitle from '../../atoms/SectionTitle';
+import React from "react";
+import HorizontalArticleItem from "../../molecules/HorizontalArticleItem";
+import SectionTitle from "../../atoms/SectionTitle";
 
 export default function HorizontalArticleList({ id, title, articles }) {
   return (

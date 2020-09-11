@@ -2,6 +2,7 @@
   background-color: #f1f1f1;
   padding: 11px 10px;
   transition: background-color 0.2s;
+  width: 100%;
 }
 
 .side-article__content:hover {

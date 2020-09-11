@@ -4,14 +4,31 @@ import Header from '../../organisms/Header';
 import BottomBar from '../../organisms/BottomBar';
 import HorizontalArticleList from '../../organisms/HorizontalArticleList';
 import VerticalArticleList from '../../organisms/VerticalArticleList';
+import HeadlineBig from '../../organisms/HeadlineBig';
+import Discover from '../../organisms/Discover';
+import VIK from '../../organisms/VIK/index';
+import HeadlineThumb from '../../organisms/HeadlineThumb';
 import popularArticles from '../../pages/Home/data/articles/popular';
 import SideArticleList from '../../organisms/SideArticleList';
 import UserArticleList from '../../organisms/UserArticleList';
 import Slide from '../../molecules/Slide';
 
-export default function MainLayout({ navbarItems, articles, slideItems }) {
+export default function MainLayout({ navbarItems, articles, DiscoverItems, slideItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
-  const { featuredArticles, recentArticles, userArticles } = articles;
+  const {
+    featuredArticles,
+    recentArticles,
+    headlineArticles,
+    visualKompasArticles,
+    HeadlineThumbArticles,
+    userArticles,
+  } = articles;
+  const {
+    DiscovItemsLeft,
+    DiscovItemsMidLeft,
+    DiscovItemsMidRight,
+    DiscovItemsRight,
+  } = DiscoverItems;
 
   return (
     <>
@@ -21,6 +38,12 @@ export default function MainLayout({ navbarItems, articles, slideItems }) {
       <div className="container">
         <div className="row">
           <div className="col-8">
+            <div className="row">
+              <div className="col">
+                <HeadlineBig headlines={headlineArticles} />
+                <HeadlineThumb HeadlineThumbArticles={HeadlineThumbArticles} />
+              </div>
+            </div>
             <div className="row">
               <div className="col">
                 <HorizontalArticleList id="featured" title="Sorotan" articles={featuredArticles} />
@@ -33,7 +56,22 @@ export default function MainLayout({ navbarItems, articles, slideItems }) {
             </div>
             <div className="row mt-3">
               <div className="col">
-                <Slide items={slideItems}/>
+                <Slide items={slideItems} />
+              </div>
+            </div>
+            <div className="row mt-3">
+              <div className="col">
+                <VerticalArticleList id="recent-2" articles={recentArticles} />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Discover
+                  DisItemLeft={DiscovItemsLeft}
+                  DisItemMidLeft={DiscovItemsMidLeft}
+                  DisItemMidRight={DiscovItemsMidRight}
+                  DisItemRight={DiscovItemsRight}
+                />
               </div>
             </div>
           </div>
@@ -48,6 +86,11 @@ export default function MainLayout({ navbarItems, articles, slideItems }) {
                 <UserArticleList id="user-post" title="Kolom" articles={userArticles} />
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <VIK VIKArticles={visualKompasArticles} />
           </div>
         </div>
       </div>

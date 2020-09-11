@@ -1,0 +1,10 @@
+.Discover-Menu {
+  position: relative;
+  display: block;
+  padding: 12px 0 20px;
+}
+
+.Discover-Menu ul {
+  margin: 0;
+  list-style: none;
+}

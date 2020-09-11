@@ -1,0 +1,25 @@
+.ga--vik-gate {
+  padding: 20px 0 0;
+}
+
+.col-offset-fluid {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-bs10-10 {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.mt2 {
+  margin-top: 20px;
+}
+
+.article__wrap__grid--vik {
+  height: 325px;
+}

@@ -1,0 +1,12 @@
+.Headline-Thumb-Link {
+  display: block;
+}
+
+.Headline-Thumb-Title {
+  font-size: 14px;
+  font-weight: 400;
+  height: 73px;
+  max-height: 73px;
+  overflow: hidden;
+  padding: 0 6px;
+}

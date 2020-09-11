@@ -8,7 +8,7 @@ export default function UserArticleList({ id, title, articles }) {
       <SectionTitle text={title} center={true} />
       <div className="row mt-3">
         {articles.map(article => (
-          <div key={article.id} className="col mb-5">
+          <div key={article.id} className="col-12 mb-5">
             <UserArticleItem title={article.title} url={article.url} user={article.user} />
           </div>
         ))}

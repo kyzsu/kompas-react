@@ -1,0 +1,22 @@
+.Discover {
+  position: relative;
+  padding: 0;
+}
+
+.col-bs10-7 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 70%;
+}
+
+.col-bs12-3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 25%;
+}
