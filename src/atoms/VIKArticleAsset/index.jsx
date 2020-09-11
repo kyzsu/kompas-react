@@ -3,9 +3,11 @@ import "./index.css";
 
 const VIKArticleAsset = ({ href, src, alt }) => {
   return (
-    <a href={href}>
-      <img src={src} alt={alt} />
-    </a>
+    <div className="article__asset">
+      <a href={href}>
+        <img src={src} alt={alt} />
+      </a>
+    </div>
   );
 };
 

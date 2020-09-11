@@ -8,7 +8,7 @@ const HeadlineBigImg = ({ image, alt }) => {
         src={
           image
             ? image
-            : "https://asset.kompas.com/crops/j3cAnqlEHukYktDWI5pscL-O9NA=/88x113:764x563/740x500/data/photo/2020/05/17/5ec118053541c.jpg"
+            : "https://asset.kompas.com/crops/oiumMcTmckL2HLD08JCbVChZMcQ=/200x388:1800x1454/740x500/data/photo/2020/03/20/5e740f31f2354.jpg"
         }
         alt={alt}
       />

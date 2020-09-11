@@ -4,3 +4,11 @@
   overflow: hidden;
   position: relative;
 }
+
+.Headline-Big-Img img {
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+  vertical-align: top;
+  border: 0;
+}
