@@ -7,6 +7,7 @@ import VerticalArticleList from "../../organisms/VerticalArticleList";
 import HeadlineBig from "../../organisms/HeadlineBig";
 import Discover from "../../organisms/Discover";
 import VIK from "../../organisms/VIK/index";
+import HeadlineThumb from "../../organisms/HeadlineThumb";
 
 export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
@@ -15,6 +16,7 @@ export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
     recentArticles,
     headlineArticles,
     visualKompasArticles,
+    HeadlineThumbArticles,
   } = articles;
   const {
     DiscovItemsLeft,
@@ -37,6 +39,7 @@ export default function MainLayout({ navbarItems, articles, DiscoverItems }) {
             <div className="row">
               <div className="col">
                 <HeadlineBig headlines={headlineArticles} />
+                <HeadlineThumb HeadlineThumbArticles={HeadlineThumbArticles} />
               </div>
             </div>
             <div className="row">

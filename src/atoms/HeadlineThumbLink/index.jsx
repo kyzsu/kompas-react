@@ -19,3 +19,5 @@ const HeadlineThumbLink = ({ href, alt }) => {
     </a>
   );
 };
+
+export default HeadlineThumbLink;

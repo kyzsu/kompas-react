@@ -1,0 +1,33 @@
+.headline__thumb {
+  position: relative;
+  overflow: hidden;
+  height: 218px;
+}
+
+.headline__thumb .slick-slider {
+  margin-bottom: 15px;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+}
+
+.headline__thumb__row {
+  margin: 0;
+  overflow: hidden;
+}
+
+.slick-list {
+  transform: translateZ(0);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}

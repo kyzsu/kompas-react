@@ -19,3 +19,5 @@ const HeadlineThumbImg = ({ image, alt }) => {
     </div>
   );
 };
+
+export default HeadlineThumbImg;

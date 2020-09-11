@@ -14,4 +14,4 @@ const VIKTitle = ({ href }) => {
   );
 };
 
-export default VIKLink;
+export default VIKTitle;
