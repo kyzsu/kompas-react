@@ -1,0 +1,10 @@
+.article__lead {
+  height: auto;
+  max-height: 105px;
+  overflow: hidden;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: gray;
+}

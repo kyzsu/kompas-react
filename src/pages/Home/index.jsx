@@ -6,6 +6,7 @@ import featuredArticles from "./data/articles/featured";
 import recentArticles from "./data/articles/recent";
 import headlineArticles from "./data/articles/headlines";
 import DiscoverItems from "./data/Discover/DiscoverItems";
+import visualKompasArticles from "./data/articles/VIK";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         featuredArticles,
         recentArticles,
         headlineArticles,
+        visualKompasArticles,
       }}
       DiscoverItems={DiscoverItems}
     />
