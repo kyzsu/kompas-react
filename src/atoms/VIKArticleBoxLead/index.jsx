@@ -1,8 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const VIKArticleLead = ({ desc }) => {
+const VIKArticleBoxLead = ({ desc }) => {
   return <div className="article__lead">{desc}</div>;
 };
-
-export default VIKArticleLead;
+export default VIKArticleBoxLead;

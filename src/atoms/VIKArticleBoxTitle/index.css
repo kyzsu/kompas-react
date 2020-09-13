@@ -1,7 +1,4 @@
 .article__title {
-  height: auto;
-  max-height: 45px;
-  overflow: hidden;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -11,6 +8,13 @@
 
 .article__link {
   display: block;
+}
+
+a {
   color: inherit;
-  outline: 0;
+  vertical-align: baseline;
+}
+
+a:hover {
+  text-decoration: none;
 }

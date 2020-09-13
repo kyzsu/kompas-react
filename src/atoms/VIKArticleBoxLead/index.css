@@ -1,4 +1,4 @@
-.article__lead {
+.article_lead {
   height: auto;
   max-height: 105px;
   overflow: hidden;
@@ -7,4 +7,5 @@
   font-weight: 300;
   line-height: 1.4;
   color: gray;
+  margin: 0 0 10px;
 }

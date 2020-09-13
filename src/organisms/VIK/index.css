@@ -3,8 +3,8 @@
 }
 
 .col-offset-fluid {
-  margin-left: -15px;
   margin-right: -15px;
+  margin-left: -15px;
 }
 
 .col-bs10-10 {
@@ -16,10 +16,19 @@
   float: left;
 }
 
-.mt2 {
-  margin-top: 20px;
+.title {
+  position: relative;
+  border-bottom: 1px solid #9b9b9b;
 }
 
-.article__wrap__grid--vik {
-  height: 325px;
+.title img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  border: 0;
+}
+
+.mt2 {
+  margin-top: 20px;
 }

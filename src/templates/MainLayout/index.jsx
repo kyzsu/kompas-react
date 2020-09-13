@@ -5,38 +5,26 @@ import BottomBar from "../../organisms/BottomBar";
 import HorizontalArticleList from "../../organisms/HorizontalArticleList";
 import VerticalArticleList from "../../organisms/VerticalArticleList";
 import HeadlineBig from "../../organisms/HeadlineBig";
-import Discover from "../../organisms/Discover";
-import VIK from "../../organisms/VIK/index";
 import HeadlineThumb from "../../organisms/HeadlineThumb";
 import Slide from "../../molecules/Slide";
 import SideArticleList from "../../organisms/SideArticleList";
 import UserArticleList from "../../organisms/UserArticleList";
 import Footer from "../../organisms/Footer/index";
 import GTPList from "../../organisms/GramediaTopikPilihanList";
+import VIK from "../../organisms/VIK";
 
-export default function MainLayout({
-  navbarItems,
-  articles,
-  DiscoverItems,
-  slideItems,
-}) {
+export default function MainLayout({ navbarItems, articles, slideItems }) {
   const { topBarItems, bottomBarItems } = navbarItems;
   const {
     popularArticles,
     featuredArticles,
     recentArticles,
     headlineArticles,
-    visualKompasArticles,
     HeadlineThumbArticles,
     userArticles,
     gramediaAds,
+    VIKArticles,
   } = articles;
-  const {
-    DiscovItemsLeft,
-    DiscovItemsMidLeft,
-    DiscovItemsMidRight,
-    DiscovItemsRight,
-  } = DiscoverItems;
 
   return (
     <>
@@ -78,24 +66,14 @@ export default function MainLayout({
                 <Slide items={slideItems} />
               </div>
             </div>
+            <div className="row">
+              <div className="col">
+                <VIK VIKArticles={VIKArticles} />
+              </div>
+            </div>
             <div className="row mt-3">
               <div className="col">
                 <VerticalArticleList id="recent-2" articles={recentArticles} />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
-                <Discover
-                  DisItemLeft={DiscovItemsLeft}
-                  DisItemMidLeft={DiscovItemsMidLeft}
-                  DisItemMidRight={DiscovItemsMidRight}
-                  DisItemRight={DiscovItemsRight}
-                />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
-                <VIK VIKArticles={visualKompasArticles} />
               </div>
             </div>
           </div>

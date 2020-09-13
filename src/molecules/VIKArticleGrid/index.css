@@ -1,0 +1,32 @@
+.article__wrap__grid--vik {
+  height: 325px;
+}
+
+.col-bs12-3 {
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.article__wrap__grid--vik .article__grid {
+  height: 100%;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+
+.article__wrap__grid--vik .article__lead {
+  height: auto;
+  max-height: 105px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.article__box {
+  position: relative;
+  margin: -20px 10px 0;
+  background: #fff;
+  padding: 10px;
+}
