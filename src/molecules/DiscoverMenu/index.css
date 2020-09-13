@@ -1,0 +1,33 @@
+.col-bs12-3 {
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.discover__menu {
+  position: relative;
+  display: block;
+  padding: 12px 0 20px;
+}
+
+.discover__menu ul {
+  margin: 0;
+  list-style: none;
+}
+
+.discover__menu li {
+  display: block;
+}
+
+.discover__menu li a {
+  display: block;
+  padding: 6px 0;
+  text-transform: uppercase;
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2a2a2a;
+}

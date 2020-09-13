@@ -11,6 +11,7 @@ import userArticles from "./data/articles/user";
 import slideItems from "./data/slide/items";
 import gramediaAds from "./data/articles/gramedia";
 import VIKArticles from "./data/articles/VIK";
+import DiscoverLists from "./data/articles/discover";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         VIKArticles,
       }}
       slideItems={slideItems}
+      DiscoverLists={DiscoverLists}
     />
   );
 }

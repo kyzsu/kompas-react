@@ -12,8 +12,14 @@ import UserArticleList from "../../organisms/UserArticleList";
 import Footer from "../../organisms/Footer/index";
 import GTPList from "../../organisms/GramediaTopikPilihanList";
 import VIK from "../../organisms/VIK";
+import Discover from "../../organisms/Discover";
 
-export default function MainLayout({ navbarItems, articles, slideItems }) {
+export default function MainLayout({
+  navbarItems,
+  articles,
+  slideItems,
+  DiscoverLists,
+}) {
   const { topBarItems, bottomBarItems } = navbarItems;
   const {
     popularArticles,
@@ -25,7 +31,6 @@ export default function MainLayout({ navbarItems, articles, slideItems }) {
     gramediaAds,
     VIKArticles,
   } = articles;
-
   return (
     <>
       <TopBar
@@ -105,6 +110,7 @@ export default function MainLayout({ navbarItems, articles, slideItems }) {
           </div>
         </div>
       </div>
+      <Discover DiscoverLists={DiscoverLists} />
       <Footer />
     </>
   );

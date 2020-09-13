@@ -1,0 +1,43 @@
+.discover {
+  position: relative;
+  padding: 0;
+}
+
+.container {
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-offset-fluid {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-bs10-7 {
+  width: 70%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.title {
+  position: relative;
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.title__content {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4a4a4a;
+  font-family: Roboto Condensed, sans-serif;
+  text-transform: uppercase;
+}
